@@ -4,4 +4,6 @@ Create a program for Basic Password Generator
 
 Write a program that generates a random password of a user-specified length.
 
-Include 2 uppercase, 5 lowercase letters, 3 numbers, and 1 symbols
+If password is greater than 7 characters ; password is strong.
+
+If password is less than 7 characters password is weak
