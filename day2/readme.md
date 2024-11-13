@@ -1,19 +1,23 @@
-Unit Conversion Program
+Ohm's Law Calculator
 
-Description: This program converts units from meters to other common units like kilometers, centimeters, and inches.
+This program calculates voltage, current, or resistance based on the other two values using Ohm's Law: 𝑉=𝐼×𝑅
 
-def convert_length(meters):
+def ohms_law(voltage=None, current=None, resistance=None):
 
-    kilometers = meters / 1000
+    # Calculate voltage if current and resistance are provided
     
-    centimeters = meters * 100
+    voltage = current * resistance
     
-    inches = meters * 39.3701
+    # Calculate current if voltage and resistance are provided
     
-    print(f"{meters} meters is:")
+    current = voltage / resistance
     
-    print(f"{kilometers} kilometers")
+    # Calculate resistance if voltage and current are provided
     
-    print(f"{centimeters} centimeters")
+    resistance = voltage / current
     
-    print(f"{inches:.2f} inches")
+    # If all three values or fewer than two values are provided, show an error
+    
+    return "Please provide exactly two values."
+Example usage
+ohms_law(voltage=10, resistance=5) ohms_law(current=2, resistance=5)
