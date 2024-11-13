@@ -1,23 +1,7 @@
-Ohm's Law Calculator
+Day 2
 
-This program calculates voltage, current, or resistance based on the other two values using Ohm's Law: 𝑉=𝐼×𝑅
+Create a program for Basic Password Generator
 
-def ohms_law(voltage=None, current=None, resistance=None):
+Write a program that generates a random password of a user-specified length.
 
-    # Calculate voltage if current and resistance are provided
-    
-    voltage = current * resistance
-    
-    # Calculate current if voltage and resistance are provided
-    
-    current = voltage / resistance
-    
-    # Calculate resistance if voltage and current are provided
-    
-    resistance = voltage / current
-    
-    # If all three values or fewer than two values are provided, show an error
-    
-    return "Please provide exactly two values."
-Example usage
-ohms_law(voltage=10, resistance=5) ohms_law(current=2, resistance=5)
+Include 2 uppercase, 5 lowercase letters, 3 numbers, and 1 symbols
