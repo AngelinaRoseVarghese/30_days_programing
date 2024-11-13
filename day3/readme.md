@@ -1,7 +1,9 @@
 Day 3
 
- Counting Vowels and Consonants
- 
-Write a program that counts the number of vowels and consonants in a given string.
+Multiplication Table
+
+Task: Display the multiplication table for a user-input number.
+
+Hint: Use a loop to iterate through the multipliers
 
 
