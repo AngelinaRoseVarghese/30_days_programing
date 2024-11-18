@@ -1,4 +1,5 @@
-Day 3
+# 14/11/2024
+# Day 3
 
 Multiplication Table
 
