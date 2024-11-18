@@ -1,4 +1,6 @@
- Day 3: Sum of Numbers in a Range
+
+ # 17/11/2024
+ # Day 6: Sum of Numbers in a Range
  
 Task: Calculate the sum of all numbers within a given range.
 
