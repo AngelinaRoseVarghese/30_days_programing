@@ -1,4 +1,5 @@
-Day 2
+# 13/11/2024
+# Day 2
 
 Create a program for Basic Password Generator
 
