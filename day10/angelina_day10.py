@@ -3,7 +3,7 @@ date;21/11/2024
 author: Angelina Rose Varghese
 description: A program based on list methods. Using index,append, insert, extend, remove, count, pop, sort, reverse, max(), min(), split.
  Ask user for the input of list.
-'''
+ 
 # to append elements to the list
 no=int(input("How many numbers you want to enter in list : "))
 my_list=[]
@@ -11,7 +11,7 @@ for i in range(no):
     num=(input("Enter a number: "))
     my_list.append(num)
 print(my_list)
-'''
+
 # to find the index no from the list
 location=input("Enter the  variable you want to find the position of: ")
 print(my_list.index(location))
@@ -60,14 +60,14 @@ print(my_list)
 
 # to find maximum in the list
 print(max(my_list))
-'''
+
 # to find minimum in the list
 print(min(my_list))
 
 
 
 
-#
+
 
 
 
